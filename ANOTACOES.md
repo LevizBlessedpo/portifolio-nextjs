@@ -35,3 +35,26 @@ export default function Navbar() {
     </nav>
   );
 }
+
+```
+## Componente: Hero (src/app/components/Hero.jsx)
+### Versão 3: Utilização do Hero.jsx
+
+Nessa parte criamos um bloco de código no Hero.jsx que serviu para fazer uma apresentação inicial sobre "quem sou eu" para outras pessoas verem, a estrutura foi relativamente simples utilizando novamente o conceito de className e uma "section" para definir uma seção.
+
+```jsx
+export default function Hero() {
+    return (
+        <section id="inicio" className="bg-slate-800 text-white p-8">
+            
+            <h2 className="text-3xl font-bold mb-4">
+                Bem-vindo ao Meu Portfólio
+            </h2>
+
+            <p className="text-lg">
+                Sou um desenvolvedor web apaixonado por criar experiências digitais incríveis.
+            </p>
+
+        </section>
+    )
+}
