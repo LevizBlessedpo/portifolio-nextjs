@@ -4,7 +4,7 @@ export default function Projects() {
     <section id="projetos" className="py-16 px-6 max-w-5xl mx-auto">
       
       {/* Título da seção */}
-      <h3 className="text-3xl font-bold mb-8 text-center text-slate-800">
+      <h3 className="text-3xl font-bold mb-8 text-center text-blue-500">
         Meus Projetos
       </h3>
 
