@@ -13,10 +13,11 @@ export default function Navbar({ darkMode, toggleTheme }) {
           <li><a href="#inicio" className="hover:text-blue-500 transition-colors">Início</a></li>
           <li><a href="#projetos" className="hover:text-blue-500 transition-colors">Projetos</a></li>
           <li><a href="#contato" className="hover:text-blue-500 transition-colors">Contato</a></li>
+          <li><a href="#sobre" className="hover:text-blue-500 transition-colors">Sobre</a></li>
         </ul>
 
         <span className={darkMode ? 'text-slate-700' : 'text-slate-300'}>|</span>
-        
+
         {/* botão de alternância do tema da página */}
         <button
           onClick={toggleTheme}
