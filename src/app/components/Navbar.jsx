@@ -6,7 +6,9 @@ export default function Navbar({ darkMode, toggleTheme }) {
       darkMode ? 'bg-slate-900 border-b border-slate-800 text-white' : 'bg-slate-50 border-b border-slate-200 text-slate-900'
     }`}>
       
-      <h1 className="text-xl font-bold">Meu Portfólio</h1>
+      <h1 className="text-xl font-bold">
+        {"< Levi />"}
+      </h1>
 
       <div className="flex items-center gap-6">
         <ul className={`flex gap-4 text-sm ${darkMode ? 'text-slate-300' : 'text-slate-600'}`}>
