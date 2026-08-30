@@ -47,7 +47,8 @@ export default function Hero({ darkMode }) {
           >
             <FaGithub />
           </a>
-
+          <span className={'text-slate-300'}>|
+          </span>
           <a
             href="https://www.linkedin.com/in/levi-santos-da-cruz-9a998533a/" 
             target="_blank" 
@@ -59,7 +60,8 @@ export default function Hero({ darkMode }) {
           >
             <FaLinkedin />
           </a>
-
+          <span className={'text-slate-300'}>|
+          </span>
           <a
             href="https://www.instagram.com/levi_santos_eletro?igsi=NTJmbWhhaTNvZDdx" 
             target="_blank" 
