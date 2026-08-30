@@ -16,7 +16,8 @@ export default function Navbar({ darkMode, toggleTheme }) {
         </ul>
 
         <span className={darkMode ? 'text-slate-700' : 'text-slate-300'}>|</span>
-
+        
+        {/* botão de alternância do tema da página */}
         <button
           onClick={toggleTheme}
           aria-label="Alternar tema"
