@@ -122,3 +122,7 @@ export default function Footer() {
     </footer>
   );
 }
+
+```
+## Explicação conceitual de sintaxes de ReactJs e Nextjs:
+
