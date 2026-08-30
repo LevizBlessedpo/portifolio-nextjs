@@ -15,7 +15,7 @@ export default function Navbar() {
       darkMode ? 'bg-slate-900 text-white' : 'bg-slate-100 text-slate-900 border-b border-slate-200'
     }`}>
       
-      {/* Nome/Marca */}
+      {/* Marca do meu Portifólio*/}
       <h1 className="text-xl font-bold">Meu Portfólio</h1>
 
       {/* Container com Links e Botão */}
