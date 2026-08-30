@@ -19,7 +19,7 @@ export default function Home() {
       {/* Passamos o estado e a função para a Navbar */}
       <Navbar darkMode={darkMode} toggleTheme={toggleTheme} />
       
-      {/* Passamos o estado para o Hero adaptar as cores */}
+      {/* estado para o Hero receber o modo dark e light */}
       <Hero darkMode={darkMode} />
 
       {/* <Projects darkMode={darkMode} /> */}
