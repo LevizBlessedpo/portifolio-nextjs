@@ -21,8 +21,8 @@ export default function Home() {
       
       {/* estado para o Hero receber o modo dark e light */}
       <Hero darkMode={darkMode} />
-
-      {/* <Projects darkMode={darkMode} /> */}
+      <Projects darkMode={darkMode} />
+      
       {/* <Footer darkMode={darkMode} /> */}
     </div>
   );
