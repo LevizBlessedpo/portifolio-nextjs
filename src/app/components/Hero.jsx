@@ -15,10 +15,41 @@ export default function Hero() {
                     </span>, 
                     apaixonado por criar experiências digitais envolventes e funcionais. Meu objetivo é transformar ideias em realidade através do código, sempre buscando aprender e evoluir na área!
                 </p>
-                    <span className="bg-red-600 text-white px-2 py-1 rounded-full text-sm font-semibold">
-                        REACTJS
+                
+                {/* Tecnologias que utilizo */}
+                <nav className="flex gap-4 justify-center">
+                    <span className="bg-red-600 text-white px-2 py-1 rounded-md text-sm font-semibold ">
+                        React.js
                     </span>
-              
+
+                    <span className="bg-blue-600 text-white px-2 py-1 rounded-md text-sm font-semibold ">
+                        Next.js
+                    </span>
+
+                    <span className="bg-orange-600 text-white px-2 py-1 rounded-md text-sm font-semibold ">
+                        HTML
+                    </span>
+
+                    <span className="bg-yellow-600 text-white px-2 py-1 rounded-md text-sm font-semibold ">
+                        JavaScript
+                    </span>
+
+                    <span className="bg-green-600 text-white px-2 py-1 rounded-md text-sm font-semibold ">
+                        CSS
+                    </span>
+
+                    <span className="bg-purple-600 text-white px-2 py-1 rounded-md text-sm font-semibold ">
+                        Tailwind CSS
+                    </span>
+
+                    <span className="bg-pink-600 text-white px-2 py-1 rounded-md text-sm font-semibold ">
+                        PHP
+                    </span>
+
+                    <span className="bg-gray-600 text-white px-2 py-1 rounded-md text-sm font-semibold ">
+                        MySQL
+                    </span>
+                </nav>
             </span>
         </section>
     )
