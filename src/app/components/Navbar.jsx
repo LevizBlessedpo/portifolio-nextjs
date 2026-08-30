@@ -9,7 +9,7 @@ export default function Navbar({ darkMode, toggleTheme }) {
       <h1 className="text-xl font-bold">
         {"< Levi />"}
       </h1>
-
+      
       <div className="flex items-center gap-6">
         <ul className={`flex gap-4 text-sm ${darkMode ? 'text-slate-300' : 'text-slate-600'}`}>
           <li><a href="#inicio" className="hover:text-blue-500 transition-colors">Início</a></li>
