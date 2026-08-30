@@ -19,12 +19,19 @@ export default function Navbar({ darkMode, toggleTheme }) {
 
         <button
           onClick={toggleTheme}
-          className={`p-2 rounded-full text-lg transition-transform hover:scale-110 ${
-            darkMode ? 'bg-slate-800 text-yellow-400' : 'bg-slate-200 text-slate-800'
-          }`}
-          title="Alternar Tema"
+          aria-label="Alternar tema"
+          className={`relative w-16 h-8 rounded-full p-1 transition-colors duration-300 flex items-center justify-between cursor-pointer 
+      ${
+          darkMode ? 'bg-zinc-800 border border-zinc-700' : 'bg-zinc-300 border border-zinc-400'
+      }`}
         >
-          {darkMode ? '☀️' : '🌙'}
+          <span className="text-xs ml-1 select-none">🌙</span>
+          <span className="text-xs mr-1 select-none">☀️</span>
+          <div
+            className={`absolute top-1 left-1 w-6 h-6 rounded-full bg-white shadow-md transition-transform duration-300 ease-in-out ${
+              darkMode ? 'translate-x-8' : 'translate-x-0'
+            }`}
+          />
         </button>
       </div>
     </nav>
