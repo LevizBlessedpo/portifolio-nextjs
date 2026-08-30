@@ -106,3 +106,19 @@ export default function Projects() {
     </section>
   );
 }
+
+```
+## Componente: Footer (src/app/components/Footer.jsx)
+### Versão 3: Utilização do Footer.jsx
+
+Nessa última parte fizemos o rodapé final do do portifólio para dar uma autonomia para o site, a estrutura também foi básica nessa parte do código utilizando sintaxes facilmente compreendiveis.
+
+```jsx
+export default function Footer() {
+  return (
+    // id="contato" conecta com o link do Navbar (#contato)
+    <footer id="contato" className="bg-slate-900 text-slate-400 py-8 text-center text-sm">
+      <p>© 2026 - Desenvolvido com Next.js & Tailwind CSS.</p>
+    </footer>
+  );
+}
