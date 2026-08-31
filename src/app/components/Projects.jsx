@@ -6,7 +6,7 @@ const meusProjetos = [
     titulo: 'Site para publicação do projeto para evento ETEC',
     subtitulo: 'Desenvolvimento Web Front-end',
     descricao: 'Site desenvolvido para publicação do projeto de Mostra Técnica da ETEC, utilizando HTML, JavaScript e CSS. O site apresenta informações sobre o projeto, imagens e links para o repositório no GitHub e para a versão deployada.',
-    imagem: 'public/mockup-pc-ETEC.png',
+    imagem: '/mockup-pc-ETEC.png',
     tags: ['HTML', 'JavaScript', 'CSS'],
     linkDeploy: 'https://levizblessedpo.github.io/Projeto-Mostra-Tecnica-ETEC/',
     linkGithub: 'https://github.com/LevizBlessedpo/Projeto-Mostra-Tecnica-ETEC',

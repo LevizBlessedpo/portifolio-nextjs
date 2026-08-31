@@ -125,4 +125,6 @@ export default function Footer() {
 
 ```
 ## Explicação conceitual de sintaxes de ReactJs e Nextjs:
+### Pasta public e src:
+pastas `public`e `src`: Ao tentar puxar um arquivo da pasta public desse projeto, utilizando o comando: `public/mockup-pc-ETEC.png` não deu certo, más porque? A reposta é que por conta da pasta public ter sido criada na raiz do projeto, quando tentamos puxar a imagem dessa forma especificando a pasta `public` estamos procurando dentro de `src`oque não é correto, por isso para resolver devemos fazer dessa maneira: `/mockup-pc-ETEC.png`, assim o arquivo procura a imagem dentro da raiz URL do projeto e encontra a imagem com esse exato nome.
 
