@@ -11,6 +11,17 @@ const meusProjetos = [
     linkDeploy: 'https://levizblessedpo.github.io/Projeto-Mostra-Tecnica-ETEC/',
     linkGithub: 'https://github.com/LevizBlessedpo/Projeto-Mostra-Tecnica-ETEC',
   },
+
+  {
+    id: 2,
+    titulo: 'Site de publicação do portifólio pessoal',
+    subtitulo: 'Desenvolvimento Web Full-stack',
+    descricao: 'Este site foi desenvolvido com carinho para a publicaçaõ do meu portifólio pessoal! Utilizando HTML, JavaScript, Tailwind CSS, React e Next.js. O site apresenta informações sobre o projeto, imagens e links para o repositório no GitHub e para a versão deployada.',
+    imagem: '/mockup-pc-portifolio.png',
+    tags: ['HTML', 'JavaScript', 'Tailwind CSS', 'React', 'Next.js'],
+    linkDeploy: 'https://levizblessedpo.github.io/Projeto-Mostra-Tecnica-ETEC/',
+    linkGithub: 'https://github.com/LevizBlessedpo/Projeto-Mostra-Tecnica-ETEC',
+  },
 ];
 
 export default function Projects({ darkMode }) {
