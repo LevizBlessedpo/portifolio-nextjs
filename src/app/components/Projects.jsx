@@ -22,6 +22,16 @@ const meusProjetos = [
     linkDeploy: 'https://levizblessedpo.github.io/Projeto-Mostra-Tecnica-ETEC/',
     linkGithub: 'https://github.com/LevizBlessedpo/Projeto-Mostra-Tecnica-ETEC',
   },
+  {
+    id: 3,
+    titulo: 'Site de de treino para Hackathon 2026',
+    subtitulo: 'Desenvolvimento Web Full-stack',
+    descricao: 'Site desenvolvido como treino com +2 amigos para o evento do Hackathon da NASA de 2026, o projeto visa denunciar desmatamentos constantes que ocorrem nas cidades do brasil, onde o principal foco é na Amazônia',
+    imagem: '/mockup-amazônia.png',
+    tags: ['HTML5', 'JavaScript', 'CSS3', 'Python', 'Chart.js', 'Leaflet', 'flask', 'SQLite'],
+    linkDeploy: 'https://levizblessedpo.github.io/projetos-treino-hackathon/',
+    linkGithub: 'https://github.com/LevizBlessedpo/projetos-treino-hackathon',
+  },
 ];
 
 export default function Projects({ darkMode }) {
