@@ -2,6 +2,8 @@
 
 Portfólio pessoal moderno desenvolvido para apresentar meus projetos web, habilidades técnicas e jornada de aprendizado como desenvolvedor.
 
+**Acesse o site ao vivo: [https://portifolio-nextjs-puce.vercel.app/](https://portifolio-nextjs-puce.vercel.app/)**
+
 <img src="preview.png" alt="imagem do portifólio"/>
 
 ---
