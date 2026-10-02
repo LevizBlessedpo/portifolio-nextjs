@@ -2,7 +2,7 @@
 
 Portfólio pessoal moderno desenvolvido para apresentar meus projetos web, habilidades técnicas e jornada de aprendizado como desenvolvedor.
 
-<img src="portifolio-nextjs/preview.png" alt="imagem do portifólio" />
+<img src="preview.png" alt="imagem do portifólio"/>
 
 ---
 
