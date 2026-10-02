@@ -68,7 +68,7 @@ export default function Projects({ darkMode }) {
 
               {/* Área do Print do Site */}
               <div className="relative aspect-video w-full overflow-hidden bg-slate-900">
-                <img 
+                <img
                   src={projeto.imagem} 
                   alt={`Print do projeto ${projeto.titulo}`} 
                   className="w-full h-full object-cover object-top transition-transform duration-500 group-hover:scale-105"
